@@ -163,12 +163,19 @@
           </div>
         </div>
       </div>
-   </h1>
-   <span class="">Payment</span>
-   </div>
-   </div>
-<img src="gopay.jpg" width="70" height="70" alt="Gopay Logo" />
-   </h1>
+  <title>Payment Gopay</title>
+</head>
+<body>
+  <h1>Payment Gopay</h1>
+  <form action="payment.php" method="post">
+    <label>Nomor HP:</label>
+    <input type="text" name="phone_number" placeholder="Masukkan nomor HP Anda" required>
+    <br><br>
+    <label>Jumlah Pembayaran:</label>
+    <input type="number" name="amount" placeholder="Masukkan jumlah pembayaran" required>
+    <br><br>
+    <input type="submit" value="Bayar Sekarang">
+  </form>
     </div>
   </section>
   <script src="js/index.js"></script>
